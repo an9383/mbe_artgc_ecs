@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\KR.MBE.CommonLibrary\KR.MBE.CommonLibrary.csproj" />
+    <ProjectReference Include="..\KR.MBE.Data\KR.MBE.Data.csproj" />
+    <ProjectReference Include="..\KR.MBE.Message\KR.MBE.Message.csproj" />
+    <ProjectReference Include="..\KR.MBE.RCMS\KR.MBE.RCMS.csproj" />
+    <ProjectReference Include="..\Middleware.ActiveMQ\Middleware.ActiveMQ.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,84 @@
+{
+    "jsonrpc": "2.0",
+    "id": "1",
+    "method": "setJoborder",
+    "params": [
+        {
+            "seq_Number": "201706080943142402997817975436",
+            "event_Timestamp": "2021-05-14 15:41:47.000",
+            "msg_Id": "4002",
+            "jobOrderInfo_Key": "MEDU367560712016112411170F",
+            "topic": "JOB_CHG",
+            "jobDetailInfo": {
+                "jobStatus": "A",
+                "jobType": "MI",
+                "twinTandemFlg": "S",
+                "twinTandemKey": "",
+                "tandemJoinYT": "",
+                "positionOnChassis": "A",
+                "conePlan": "N",
+                "eventId": "BLI"
+            },
+            "vessel": {
+                "vslCd": "RHXX",
+                "voyNo": "001/2016",
+                "queue": "YY161124110534",
+                "plnSeq": "0"
+            },
+            "container": {
+                "cntrNo": "MEDU3675607",
+                "cntrIso": "2210",
+                "cntrTp": "GE",
+                "opr": "MSL",
+                "cls": "II",
+                "cntrCgoTp": "G",
+                "fullMty": "F"
+            },
+            "quayCrane": {
+                "mchnId": "",
+                "mchnTp": "",
+                "mchnSts": "",
+                "vrtlFlg": "",
+                "autoSts": "0",
+                "location": {
+                    "locTp": "UNDEFINED",
+                    "bay": "",
+                    "blck": "",
+                    "row": "",
+                    "tier": "",
+                    "location": ""
+                }
+            },
+            "yardTrailer": {
+                "mchnId": "T919",
+                "mchnTp": "YT",
+                "mchnSts": "L",
+                "vrtlFlg": "",
+                "autoSts": "0",
+                "location": {
+                    "locTp": "TPW",
+                    "bay": "51",
+                    "blck": "77A",
+                    "row": "1",
+                    "tier": "",
+                    "location": "77A-51"
+                }
+            },
+            "yardCrane": {
+                "mchnId": "A003",
+                "mchnTp": "TC",
+                "mchnSts": "A",
+                "vrtlFlg": "",
+                "autoSts": "1",
+                "location": {
+                    "locTp": "YARD",
+                    "bay": "51",
+                    "blck": "77A",
+                    "row": "B",
+                    "tier": "2",
+                    "location": "77A-51-B-2"
+                }
+            }
+        }
+    ]
+}
